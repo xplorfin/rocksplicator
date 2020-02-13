@@ -16,4 +16,5 @@ jobs:
         username: xplorfinoss
         password: ${{ secrets.GITHUB_TOKEN }}
         registry: docker.pkg.github.com
+        cache: true
         dockerfile: docker/Dockerfile  
