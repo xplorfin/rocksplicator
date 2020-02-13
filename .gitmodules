@@ -4,3 +4,9 @@
 [submodule "googletest"]
 	path = googletest
 	url = https://github.com/google/googletest.git
+[submodule "third_party/gate"]
+	path = third_party/gate
+	url = https://github.com/hunter-packages/gate
+[submodule "third_party/polly"]
+	path = third_party/polly
+	url = https://github.com/ruslo/polly
