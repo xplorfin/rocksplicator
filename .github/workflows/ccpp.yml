@@ -12,7 +12,8 @@ jobs:
     - name: Build, Tag, Publish Docker
       uses: HurricanKai/Publish-Docker-Github-Action@1.12.1
       with:
-        name: myDocker/repository
+        name: xplorfin/rocksplicator
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         registry: docker.pkg.github.com
+        dockerfile: docker/Dockerfile  
